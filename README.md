@@ -3,7 +3,7 @@
 # To get started:-
  - navigate to "https://developers.themoviedb.org/3", then create your own API KEY.
  
-# Technologies and Architectured used:-
+# Technologies and Architecture used:-
  - Kotlin.
  - Koin.
  - RxJava, RxAndroid.
