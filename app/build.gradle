@@ -66,5 +66,4 @@ dependencies {
     implementation "org.koin:koin-androidx-viewmodel:${KOIN_VERSION}"
 
     implementation "com.github.tbruyelle:rxpermissions:${RX_PERMISSIONS_VERSION}"
-
 }

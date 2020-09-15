@@ -11,7 +11,7 @@ data class PersonDetails(
     val dateOfBirth: String,
     @SerializedName("profile_path")
     val imagePath: String,
-    val homepage: String,
+    val homepage: String?,
     @SerializedName("birthday")
     val birthDay: String,
     @SerializedName("known_for_department")
@@ -19,5 +19,5 @@ data class PersonDetails(
     @SerializedName("deathday")
     val deathDay: String? = null,
     @SerializedName("also_known_as")
-    val nickNames: List<String>
+    val nickNames: List<String>?
 )
