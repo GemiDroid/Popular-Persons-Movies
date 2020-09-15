@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation.xml"
+    app:startDestination="@id/popularPersonsFragment">
+
+    <fragment
+        android:id="@+id/popularPersonsFragment"
+        android:name="com.gemidroid.presentation.PopularPersonsFragment"
+        android:label="@string/popular_persons"
+        tools:layout="@layout/fragment_popular_persons" >
+        <action
+            android:id="@+id/action_popularPersonsFragment_to_personDetailsFragment"
+            app:destination="@id/personDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/personDetailsFragment"
+        android:name="com.gemidroid.presentation.PersonDetailsFragment"
+        android:label="fragment_person_details"
+        tools:layout="@layout/fragment_person_details" />
+
+
+</navigation>
